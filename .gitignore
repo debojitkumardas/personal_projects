@@ -1,2 +1,6 @@
 # ignore all directories named bin
 **/bin/
+
+**/.cache/
+
+compile_commands.json
