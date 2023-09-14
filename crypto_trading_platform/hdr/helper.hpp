@@ -10,7 +10,7 @@ private:
 
 public:
     Helper();
-    /** Call this to start the simulation */
+    /** Call this to start the simulation by providing the source of data */
     void Init(std::string file_path);
 
 private:

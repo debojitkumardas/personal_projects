@@ -64,7 +64,7 @@ void Helper::GotoNextTimeframe() {
 int Helper::GetUserOption() {
     int user_option;
 
-    std::cout << "Type in 1-6: ";
+    std::cout << "Type in 0-6: ";
     std::cin >> user_option;
     std::cout << "You chose: " << user_option << '\n';
     return user_option;

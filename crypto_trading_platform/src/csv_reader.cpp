@@ -36,7 +36,7 @@ std::vector<OrderBookEntry> CSVReader::ReadCSV(std::string csv_file_path) {
 std::vector<std::string> CSVReader::Tokenise(std::string csv_line, char separator, char esc_seq) {
     std::vector<std::string> tokens;
     std::string token;
-    auto start = csv_line.find_first_not_of(separator, 0);
+    auto start = csv_line.find_first_not_of(",", 0);
     auto end = csv_line.find_first_of(separator, start);
     auto len = csv_line.length();
 
